@@ -21,14 +21,11 @@ count = 0
 while count<chances:
       
     guess = int(input('\nEnter number: '))
-    
-   
     if x==guess:
         count+=1
         print('You guess correctly with no. of counts {} \U0001f60e'.format(count))
-    
-        
         break
+      
     elif guess<x:
         count+=1
         print(f'You guessed too small \U0001f44e')
@@ -42,9 +39,3 @@ while count<chances:
         print('Sorry no of guesses over')   
         print("\U0001f44e")
         
-        
-    
-    
-    
-    
-
